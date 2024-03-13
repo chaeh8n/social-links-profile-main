@@ -104,7 +104,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 p {
@@ -112,11 +111,11 @@ p {
 }
 
 .main-container {
-  max-width: 19.5rem;
-  /* background-color: var(--off-black); */
+  max-width: 20rem;
   background-color: grey;
-
-  padding: 1.5rem 1rem;
+  background-color: var(--off-black);
+  padding: 1.4rem 1.5rem;
+  border-radius: 0.7rem;
 }
 
 .profile-container {
@@ -126,21 +125,27 @@ p {
 }
 
 .img {
-  width: 6rem;
+  width: 5.3rem;
   border-radius: 50%;
 }
 
-/* .button-container {
-  gap: 10px;
-} */
-
-button {
+.button-container a {
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 0.8rem;
   background-color: var(--dark-grey);
-  border: none;
-  font-weight: 600;
+  display: block;
+  width: 17rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  padding: 0.8rem 0rem;
+  margin-top: 1rem;
+  transition: all 0.2s;
+}
 
-  /* width: 100%; */
-
+.button-container a:hover {
+  background-color: var(--green);
+  color: var(--black);
 }
 
 .card-text {
@@ -148,19 +153,21 @@ button {
 }
 
 .author-name {
-  font-weight: 600;
+  font-weight: 500;
+  font-size: 1.4rem;
+  margin-top: 1.3rem;
 }
 
 .author-location {
   color: var(--green);
   font-weight: 700;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   margin-top: 0.5rem;
 }
 
 .author-description {
   font-weight: 400;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   margin-top: 1.2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.3rem;
 }
