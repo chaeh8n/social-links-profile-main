@@ -184,8 +184,11 @@ p {
 
   .main-container {
     max-width: 25rem;
+    padding: 1.4rem 2.5rem;
   }
 
-
+  .button-container a {
+    width: 18rem;
+  }
 
 }
