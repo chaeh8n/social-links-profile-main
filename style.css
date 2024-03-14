@@ -183,8 +183,8 @@ p {
 @media (min-width: 23.5rem) {
 
   .main-container {
-    max-width: 25rem;
-    padding: 1.4rem 2.5rem;
+    max-width: 23rem;
+    padding: 2rem 2.4rem;
   }
 
   .button-container a {
