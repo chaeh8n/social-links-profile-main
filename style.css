@@ -146,6 +146,8 @@ p {
 .button-container a:link,
 .button-container a:visited {
   text-decoration: none;
+  background-color: var(--dark-grey);
+  color: var(--white);
 }
 
 .button-container a:hover,
