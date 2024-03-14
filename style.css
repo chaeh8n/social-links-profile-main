@@ -133,7 +133,7 @@ p {
   font-weight: 700;
   text-decoration: none;
   font-size: 0.8rem;
-  background-color: var(--dark-grey);
+  background-color: var(--grey);
   display: block;
   width: 17rem;
   border-radius: 0.5rem;
@@ -168,7 +168,7 @@ p {
 
 .author-location {
   color: var(--green);
-  font-weight: 700;
+  font-weight: 600;
   font-size: 0.8rem;
   margin-top: 0.5rem;
 }
