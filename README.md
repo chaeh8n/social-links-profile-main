@@ -18,8 +18,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/social-link-desktop-screenshot.png) 
-![](./design/social-link-mobile-screenshot.png)
+![](./design/social-link-profile-desktop-screenshot.png) 
+![](./design/social-link-profile-mobile-screenshot.png)
 
 ### Links
 
