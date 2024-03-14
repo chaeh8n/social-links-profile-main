@@ -143,7 +143,13 @@ p {
   transition: all 0.2s;
 }
 
-.button-container a:hover {
+.button-container a:link,
+.button-container a:visited {
+  text-decoration: none;
+}
+
+.button-container a:hover,
+.button-container a:active {
   background-color: var(--green);
   color: var(--black);
 }
@@ -170,4 +176,14 @@ p {
   font-size: 0.8rem;
   margin-top: 1.2rem;
   margin-bottom: 0.3rem;
+}
+
+@media (min-width: 23.5rem) {
+
+  .main-container {
+    max-width: 25rem;
+  }
+
+
+
 }
